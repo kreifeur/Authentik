@@ -3,6 +3,7 @@ import Card from "./Card";
 import { LuTrees } from "react-icons/lu";
 import { GiHandBag } from "react-icons/gi";
 import { GiDirectionSign } from "react-icons/gi";
+import { IoMdArrowForward } from "react-icons/io";
 
 const FeaturesSection = () => {
   return (
@@ -18,7 +19,10 @@ const FeaturesSection = () => {
         <Card title={'Equip yourself.'} icon={<GiHandBag className="text-5xl"/>}/>
       </div>
       <div>
-        <button>TAKE THE FIRST STEP TODAY</button>
+        <div className="flex gap-2 items-center underline text-gray-400">
+            <button>TAKE THE FIRST STEP TODAY </button>
+            <IoMdArrowForward />
+          </div>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import imagesrc from "@/assets/coverscreen.jpg";
+import { IoMdArrowForward } from "react-icons/io";
 
 const HeroSection = () => {
   return (
@@ -12,12 +13,14 @@ const HeroSection = () => {
           We help creative entrepreneur build an honest brand & digital
           platform.
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-8">
           <button className="primary_btn">START YOUR JOURNEY</button>
-          <button>LEARN MORE</button>
+          <div className="flex gap-2 items-center underline">
+            <button>LEARN MORE </button>
+            <IoMdArrowForward />
+          </div>
         </div>
       </div>
-      
     </div>
   );
 };
