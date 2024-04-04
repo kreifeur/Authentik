@@ -13,9 +13,9 @@ const HeroSection = () => {
           We help creative entrepreneur build an honest brand & digital
           platform.
         </p>
-        <div className="flex gap-8">
+        <div className="flex gap-4">
           <button className="primary_btn">START YOUR JOURNEY</button>
-          <div className="flex gap-2 items-center underline">
+          <div className="flex gap-1 items-center underline">
             <button>LEARN MORE </button>
             <IoMdArrowForward />
           </div>
